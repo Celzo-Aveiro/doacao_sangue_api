@@ -12,7 +12,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/candidatos")
-@CrossOrigin(origins = "https://doacao-sangue-front-j5s8rtukm-celzo-aveiros-projects.vercel.app")
+@CrossOrigin(origins = "https://doacao-sangue-front.vercel.app/")
 public class CandidatoController {
 
     @Autowired
