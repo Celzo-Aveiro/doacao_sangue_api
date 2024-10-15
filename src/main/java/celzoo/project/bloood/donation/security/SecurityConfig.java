@@ -58,7 +58,7 @@ public class SecurityConfig {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(Arrays.asList("http://localhost:4200")); // Permite acesso apenas da porta 4200
+        configuration.setAllowedOrigins(Arrays.asList("https://doacao-sangue-front-j5s8rtukm-celzo-aveiros-projects.vercel.app")); // Permite acesso apenas da porta 4200
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE")); // Métodos permitidos
         configuration.setAllowedHeaders(Arrays.asList("Authorization", "Content-Type")); // Cabeçalhos permitidos
         configuration.setAllowCredentials(true); // Permite credenciais
